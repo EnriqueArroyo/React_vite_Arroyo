@@ -1,8 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  animation: scroll 140s linear infinite;
+  background: url("https://acko.net/files/missing-parts/cover.jpg"),
+    #111111;
+  background-size: 30%;
+  color: #eee;
+  height: 100%;
+  min-width: 360px;
+  width: 100%;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  display: flexbox;
   text-align: center;
+  
+}
+@keyframes scroll {
+  100% {
+    background-position: 0px -3000px;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 800s linear infinite;
+  }
 }
 
 .logo {

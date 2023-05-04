@@ -1,0 +1,13 @@
+.cartBox{
+    margin: 5px;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cartBox img{
+    cursor: pointer;
+}
+.cartBox p{
+    margin: 0px;
+}
