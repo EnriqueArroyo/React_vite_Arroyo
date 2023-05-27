@@ -1,0 +1,38 @@
+.cardProducto{
+    background-color: #FFBC74;
+    border-radius: 10px;
+    width: 15rem;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #004D66; /* azul oscuro */
+}
+
+.cardProducto:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.imgProducto{
+    width: 150px;
+    object-fit: contain;
+}
+
+.btnProducto{
+    text-decoration: none;
+    color: #004D66;
+    text-align: center;
+    background-color: bisque;
+    font-size: 1.2rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btnProducto:hover{
+    background-color: #e0c9b3;
+}

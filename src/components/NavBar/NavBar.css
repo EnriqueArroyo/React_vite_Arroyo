@@ -5,8 +5,21 @@ header.navbar{
 header div{
     background-color: #111111;
 }
-h1{
-    
+
+
+a:link { text-decoration: none; }
+
+.navLink{
+    text-decoration: none;
+    color: rgb(252, 224, 99);
+    margin: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.logoh1{
+    text-decoration: none;
+    color: rgb(252, 224, 99);
     margin: 0;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
