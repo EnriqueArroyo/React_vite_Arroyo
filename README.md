@@ -12,16 +12,17 @@ Arrow es una plataforma de cursos online que te permite comprar clases de divers
 
 ## Tecnologías utilizadas
 
-- HTML, CSS y JavaScript para la estructura, diseño y funcionalidad del sitio web.
-- Firebase para el almacenamiento y recuperación de datos.
-- [Firebase Firestore](https://firebase.google.com/docs/firestore) para la base de datos en tiempo real.
-- [Firebase Authentication](https://firebase.google.com/docs/auth) para la autenticación de usuarios.
+- HTML, CSS y
+- JavaScript.
+- React y React Router
+- Firebase.
+
 
 ## Configuración del proyecto
 
 1. Clona este repositorio en tu máquina local.
-2. Crea un proyecto en Firebase y habilita Firestore y Authentication.
-3. Copia las credenciales de tu proyecto de Firebase y reemplaza las variables correspondientes en el archivo `config.js`.
+2. Crea un proyecto en Firebase y habilita Firestore.
+3. Copia las credenciales de tu proyecto de Firebase y reemplaza las variables correspondientes en el archivo `config.js` o `.env`.
 4. Abre `localhost:5173` en tu navegador o sirve el proyecto en un servidor web.
 
 ## Contribución
