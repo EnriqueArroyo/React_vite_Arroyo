@@ -1,4 +1,3 @@
-import "./Categorias.css";
 import { useState, useEffect } from "react";
 
 const Categorias = () => {
@@ -18,7 +17,6 @@ document.title = `categoria: ${categoria}`;
       <button onClick={()=> handleClick("Categoria1")}>Categoria 1</button>
       <button onClick={()=> handleClick("Categoria2")}>Categoria 2</button>
       <button onClick={()=> handleClick("Categoria3")}>Categoria 3</button>
-      <button onClick={()=> handleClick("Categoria4")}>Categoria 4</button>
     </div>
   );
 };

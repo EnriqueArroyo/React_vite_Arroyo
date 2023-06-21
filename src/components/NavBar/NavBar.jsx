@@ -31,13 +31,13 @@ const NavBar = () => {
               <NavLink to={`/`}></NavLink>
             </li>
             <NavLink className="navLink" to={`/categoria/1`}>
-              Categoria 1
+              Programación Web
             </NavLink>
             <NavLink className="navLink" to={`/categoria/2`}>
-              Categoria 2
+              Backend
             </NavLink>
             <NavLink className="navLink" to={`/categoria/3`}>
-              Categoria 3
+              Frameworks y Librerias
             </NavLink>
           </ul>
         </nav>

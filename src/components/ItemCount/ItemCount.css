@@ -1,3 +1,18 @@
-*{
-    
+
+
+.btnStock{
+    margin: 1rem;
+    text-decoration: none;
+    color: #004D66;
+    text-align: center;
+    background-color: bisque;
+    font-size: 1.2rem;
+    width: 2rem;
+    border-radius: 20px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btnStock:hover{
+    background-color: #e0c9b3;
 }

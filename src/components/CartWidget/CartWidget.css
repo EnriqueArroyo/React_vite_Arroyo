@@ -1,4 +1,6 @@
 .cartBox{
+    color: #FFBC74;
+    font-size: 30px;
     margin: 5px;
     display: flex;  
     align-items: center;
@@ -11,3 +13,4 @@
 .cartBox p{
     margin: 0px;
 }
+

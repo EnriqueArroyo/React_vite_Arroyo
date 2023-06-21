@@ -20,7 +20,6 @@ const ItemCount = ({ stock, inicial, funcionAgregar }) => {
   const aumentarContador = () => {
     if (contador < stock) {
       setContador(contador + 1);
-      console.log("hola");
     }
   };
   const disminuirContador = () => {
@@ -31,12 +30,13 @@ const ItemCount = ({ stock, inicial, funcionAgregar }) => {
   return (
     <>
       <div>
-        <button onClick={disminuirContador}>-</button>
+        <button className="btnStock" onClick={disminuirContador}>-</button>
         <strong>{contador}</strong>
-        <button onClick={aumentarContador}>+</button>
+        <button className="btnStock" onClick={aumentarContador}>+</button>
         <br />
         <button
           id="boton"
+          className="btnProducto"
           onClick={() => funcionAgregar(contador)}
           style={{ color: color }}
         >
